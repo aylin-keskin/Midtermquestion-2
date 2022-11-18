@@ -40,7 +40,7 @@ void System_Config(void)
 	RCC->CIR |= 0x00800000;
 }
 
-void Bekleme(uint32_t zaman)
+void Delay(uint32_t zaman)
 {
 	while(zaman--);
 }
@@ -51,50 +51,50 @@ int main(void)
   while (1)
   {
 	  turn_name_on();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_off();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_on();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_off();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_on();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_off();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_on();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_off();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_on();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_off();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_on();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_off();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_on();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_off();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_on();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_off();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_on();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_off();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_on();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_off();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_on();
-	  Bekleme(1200000);
+	  Delay(1200000);
 	  turn_name_off();
-	  Bekleme(1200000);
-	  Bekleme(3000000);
+	  Delay(1200000);
+	  Delay(3000000);
 
   }
 
