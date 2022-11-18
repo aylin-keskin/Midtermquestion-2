@@ -70,31 +70,32 @@ int main(void)
 	  Delay(1200000);
 	  turn_name_off();
 	  Delay(1200000);
-	  turn_name_on();
+	  
+	  turn_surname_on();
 	  Delay(1200000);
-	  turn_name_off();
+	  turn_surname_off();
 	  Delay(1200000);
-	  turn_name_on();
+	   turn_surname_on();
 	  Delay(1200000);
-	  turn_name_off();
+	  turn_surname_off();
 	  Delay(1200000);
-	  turn_name_on();
+	   turn_surname_on();
 	  Delay(1200000);
-	  turn_name_off();
+	  turn_surname_off();
 	  Delay(1200000);
-	  turn_name_on();
+	   turn_surname_on();
 	  Delay(1200000);
-	  turn_name_off();
+	  turn_surname_off();
 	  Delay(1200000);
-	  turn_name_on();
+	   turn_surname_on();
 	  Delay(1200000);
-	  turn_name_off();
+	  turn_surname_off();
 	  Delay(1200000);
-	  turn_name_on();
+	   turn_surname_on();
 	  Delay(1200000);
-	  turn_name_off();
-	  Delay(1200000);
-	  Delay(3000000);
+	  turn_surname_off();
+	  Delay(1900000);
+	  
 
   }
 
